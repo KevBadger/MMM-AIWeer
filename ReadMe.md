@@ -20,8 +20,8 @@ cd ~/MagicMirror/modules
 
 ### Step 2: Create module folder
 ```bash
-mkdir MMM-SimpleWeeklyForecast
-cd MMM-SimpleWeeklyForecast
+mkdir MMM-AIWeer
+cd MMM-AIWeer
 ```
 
 ### Step 3: Create the files

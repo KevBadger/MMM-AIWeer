@@ -1,4 +1,4 @@
-# MMM-SimpleWeeklyForecast
+# 
 
 A clean and simple weekly weather forecast module for MagicMirror² displaying min/max temperatures and weather icons.
 
@@ -28,9 +28,9 @@ cd MMM-SimpleWeeklyForecast
 
 Create three files in this directory:
 
-1. **MMM-SimpleWeeklyForecast.js** - The main module file
+1. **MMM-AIWeer.js** - The main module file
 2. **node_helper.js** - Backend helper for API calls
-3. **MMM-SimpleWeeklyForecast.css** - Styling
+3. **MMM-AIWeer.css** - Styling
 
 (Copy the contents from the provided code files)
 
@@ -47,7 +47,7 @@ Add the following to your `~/MagicMirror/config/config.js` in the `modules` arra
 
 ```javascript
 {
-  module: "MMM-SimpleWeeklyForecast",
+  module: "MMM-AIWeer",
   position: "top_right", // Choose your preferred position
   config: {
     apiKey: "YOUR_OPENWEATHERMAP_API_KEY_HERE",

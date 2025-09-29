@@ -21,7 +21,8 @@ module.exports = NodeHelper.create({
       return;
     }
 
-    const url = `https://api.openweathermap.org/data/2.5/forecast/daily?lat=${config.lat}&lon=${config.lon}&cnt=${config.daysToShow}&units=${config.units}&appid=${config.apiKey}`;
+    const url = `https://api.openweathermap.org/data/3.0/onecall?lat=${config.lat}&lon=${config.lon}&exclude={part}&appid=${config.apiKey}`;
+
 
     https.get(url, (resp) => {
       let data = '';

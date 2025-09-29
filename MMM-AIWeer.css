@@ -1,0 +1,58 @@
+.weekly-forecast {
+  text-align: center;
+}
+
+.weekly-forecast .module-header {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.forecast-container {
+  display: flex;
+  justify-content: space-around;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.forecast-day {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  min-width: 80px;
+}
+
+.day-name {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 8px;
+  text-transform: uppercase;
+}
+
+.weather-icon {
+  margin: 8px 0;
+}
+
+.weather-icon.small {
+  font-size: 32px;
+}
+
+.weather-icon.medium {
+  font-size: 48px;
+}
+
+.weather-icon.large {
+  font-size: 64px;
+}
+
+.temperature {
+  font-size: 18px;
+  margin-top: 5px;
+}
+
+.temperature {
+  white-space: nowrap;
+}
